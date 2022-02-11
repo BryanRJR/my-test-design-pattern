@@ -1,0 +1,27 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/index.css" />
+<div class="center container-sm mt-5" style="align-items: center">
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <form action="/login" method="post">
+      <h2 class="mt-3 mb-3">Login</h2>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" type="text" name="username" placeholder="Username" required />
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password" required />
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" value="login" class="btn btn-primary d-grid gap-2 col-6 mx-auto">Login</button>
+      <p class="fs-6 fw-light mt-3" style="text-align: center">
+        This Form Still Test. If Error Go
+        <a href="/">Home Here</a>
+      </p>
+    </form>
+  </div>
+</div>

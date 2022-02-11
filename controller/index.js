@@ -1,10 +1,11 @@
-const DcController = require("./dc.controller")
-const MarvelController = require("./marvel.controller")
-const HomeContoller = require("./home.contoller")
-
+const HpController = require('./hp.controller');
+const HomeController = require('./home.controller');
+const AboutController = require('./about.controller');
+const LoginController = require('./login.controller');
 
 module.exports = {
-  DcController,
-  MarvelController,
-  HomeContoller
-}
+  HpController,
+  AboutController,
+  HomeController,
+  LoginController,
+};

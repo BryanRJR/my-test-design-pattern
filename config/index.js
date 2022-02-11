@@ -1,31 +1,36 @@
-let marvel_heroes = [
+let list_hp = [
   {
-    name: "RDJ",
-    role: "Iron Man"
+    name: 'Samsung S21',
+    brand: 'Samsung',
   },
   {
-    name: "Andrew Garfield",
-    role: "Spiderman"
+    name: 'Vivo V11',
+    brand: 'Vivo',
   },
   {
-    name: "cumberbatch",
-    role: "Dr. Strange"
+    name: 'Redmi Note 10',
+    brand: 'Xiaomi',
   },
-]
+  {
+    name: 'Macbook Pro 2019',
+    brand: 'Apple',
+  },
+  {
+    name: 'VGA 1080ti',
+    brand: 'Nvidia',
+  },
+  {
+    name: 'Vivobook L510MA',
+    brand: 'Asus',
+  },
+  {
+    name: 'Vivobook A516MA',
+    brand: 'Asus',
+  },
+  {
+    name: 'Notebook Asus TP470EZ',
+    brand: 'Asus',
+  },
+];
 
-let dc_heroes = [
-  {
-    role: "superman",
-    power: "Fly"
-  },
-  {
-    role: "the flash",
-    power: "run fast"
-  }
-]
-
-module.exports = {
-  marvel_heroes,
-  dc_heroes
-}
-
+module.exports = list_hp;
