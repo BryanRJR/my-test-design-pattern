@@ -1,10 +1,12 @@
-const route = require('express').Router();
-const hpRouter = require('./hpRouter');
-const homeRouter = require('./home');
-const aboutRouter = require('./about');
+const route = require("express").Router()
+const dcRouter = require("./dc")
+const marvelRouter = require("./marvel")
+const homeRouter = require("./home")
 
-route.use('/hp', hpRouter);
-route.use('/about', aboutRouter);
-route.use('/', homeRouter);
 
-module.exports = route;
+route.use('/marvel', marvelRouter)
+route.use('/dc', dcRouter)
+route.use("/", homeRouter)
+
+
+module.exports = route

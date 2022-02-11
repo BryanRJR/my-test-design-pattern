@@ -1,0 +1,37 @@
+<%- include('./head'); %>
+
+<div>
+  <h1>Marvel Heroes</h1>
+  <h2>Name</h2>
+  <% data.forEach(hero => { %>
+  <li><%= hero.name %></li>
+  <% }) %>
+
+  <h2>Role</h2>
+  <% for(let i = 0 ; i < data.length ; i++) { %>
+  <li><%= data[i].role %></li>
+  <% } %>
+
+  <form action="/marvel" method="post">
+    <label for="fname">Name:</label><br />
+    <input type="text" id="fname" name="name" /><br />
+    <label for="lname">Role:</label><br />
+    <input type="text" id="lname" name="role" /><br /><br />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <!-- <form action="/marvel" method="get">
+    <label for="fname">Name:</label><br />
+    <input type="text" id="fname" name="name" /><br />
+    <label for="lname">Role:</label><br />
+    <input type="text" id="lname" name="role" /><br /><br />
+    <input type="submit" value="Submit" />
+  </form> -->
+
+  <a href="/" class="btn btn-primary"> HOME</a>
+</div>
+
+<script>
+  function hapusdata() {}
+</script>
+<%- include('./footer'); %>

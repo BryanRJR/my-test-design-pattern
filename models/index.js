@@ -1,3 +1,8 @@
-const Hp = require('./hpmodels');
+const Marvel = require("./marvel")
+const Dc = require("./dc")
 
-module.exports = Hp;
+
+module.exports = {
+  Marvel,
+  Dc
+}

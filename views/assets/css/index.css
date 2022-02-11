@@ -1,26 +1,19 @@
-.site-header {
-  background-color: rgba(0, 0, 0, 0.85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+.logo {
+  width: 100px;
+  height: 100px;
 }
-.site-header a {
-  color: #7e7e7e;
-  transition: color 0.15s ease-in-out;
-}
-.site-header a:hover {
-  color: #ffff;
-  text-decoration: none;
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*
-   * Test Responsive
-   */
-
-.flex-equal > * {
-  flex: 1;
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #0dcaf0;
 }
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    flex: 1;
-  }
+
+.main-container {
+  height: 1000px;
 }
